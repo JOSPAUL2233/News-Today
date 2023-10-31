@@ -27,7 +27,7 @@ export const Navbar = () => {
             <ul className="nav nav-underline ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link
-                  className="nav-link active text-white"
+                  className="nav-link text-white"
                   aria-current="page"
                   to="/"
                 >

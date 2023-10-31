@@ -32,6 +32,8 @@ const FetchData = ({ cat }) => {
                     style={{
                       width: "650px",
                       boxShadow: "2px 2px 10px silver",
+                      backgroundColor: "#101723",
+                      color: "white",
                       borderRadius: "8px",
                       padding: "15px",
                     }}

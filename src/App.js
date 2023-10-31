@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
       <Router>
-        <Navbar />
+        <Navbar style={{ position: "sticky" }} />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/general" element={<FetchData cat="General" />} />
